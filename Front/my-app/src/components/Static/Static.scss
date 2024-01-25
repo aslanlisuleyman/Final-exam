@@ -1,0 +1,43 @@
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    .static{
+        .umig{
+            display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        .umig{
+            margin-bottom: 30px;
+        }
+        }
+        
+    }
+  }
+
+.static{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+    .umig{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        gap: 40px;
+         .ima{
+background-image: url("https://preview.colorlib.com/theme/coloshop/images/blog_1.jpg");
+height: 250px;
+width: 350px;
+    }
+    .imaa{
+        background-image: url("https://preview.colorlib.com/theme/coloshop/images/blog_2.jpg");
+        height: 250px;
+width: 350px;
+    }
+    .imm{
+        background-image: url("https://preview.colorlib.com/theme/coloshop/images/blog_3.jpg");
+        height: 250px;
+width: 350px;
+    }
+    }
+   
+}

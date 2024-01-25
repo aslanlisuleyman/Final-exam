@@ -1,0 +1,48 @@
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    .umumi{
+        .karts{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .umumi__right{
+            .umi{
+                display: flex;
+                margin-left: 70px;
+                flex-direction: column;
+                input{
+                    width: 300px;
+                    
+                }button{
+                        width: 300px;
+                    }
+            }
+        }
+    }
+  }
+
+.umumi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    .umumi__right{
+        .umi{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+    }
+}
+
+.karts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1500px;
+    margin-left: 10%;
+    padding-top: 20px;
+    gap: 30px;
+}

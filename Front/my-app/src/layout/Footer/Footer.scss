@@ -1,0 +1,56 @@
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    .footer{
+        left: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 40px;
+    }
+    .foot{
+        display: flex;
+        justify-content: space-around;
+    }
+    .icon{
+        display: flex;
+        gap: 30px;
+    }
+    .icon {
+        i:hover{
+            color: red;
+        }
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        text-align: left;
+        padding-right: 33.5%;
+        span{
+            color: red;
+        }
+        i{
+            color: red;
+        }
+    }
+}
